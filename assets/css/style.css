@@ -1,0 +1,145 @@
+*,
+*::before,
+*::after
+{
+    padding: 0;
+    margin: 0;
+}
+.body
+{
+    font-family: "Noto Sans", sans-serif;
+}
+.header
+{
+    background-color: #163A24;
+    color:#FBFAF7;
+    height:98px;
+}
+.container
+{
+    max-width: 1220px;
+    padding: 20px;
+    padding-right: 20px;
+    margin: 0 auto;
+}
+.header__wrapper
+{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    padding:20px 0px;
+}
+.header__link
+{
+    color:#FBFAF7;
+    text-decoration: none;
+    font-family: "Noto Sans", sans-serif;
+}
+.header__buttons
+{
+    display: flex;
+    align-items: center;
+    gap: 24px;
+}
+.btn
+{
+    background-color: #198C36;
+    padding: 15px 25px;
+    border-radius: 160px;
+}
+.first-section
+{
+    height: calc(100vh - 98px);
+    background-image:url(../img/rofl.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.first-section__text-block
+{
+    color:#FBFAF7;
+    max-width:475px;
+    padding-top: 120px;
+}
+.section__title
+{
+    font-size:48px;
+    font-weight: bold;
+}
+.section__sub-title
+{
+    font-size:18px;
+}
+.second-section
+{
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
+.test
+{
+    max-height: 200px;
+}
+.second-section__black-girl
+{
+    width: 492px;
+    height:510px;
+    padding-left: 98px;
+}
+    
+.second-section__first-text-block__title
+{
+    margin:-350px 0px 0px 818px;
+    width:325px;
+    height:108px;
+    font-size: 48px;
+    font-weight:600px;
+    /*font-family: нет такого шрифта гугле;*/
+    color:#163A24;
+
+}
+.second-section__first-text-block__sub-title
+{
+    margin:0px 0px 0px 818px;
+    width:374px;
+    height:54px;
+    font-size: 18px;
+    font-weight:400px;
+    color:#163A24;
+    font-family: "Noto Sans", sans-serif;
+
+}
+.second-section__2
+{
+    padding:520px 0px 0px 720px
+}
+.second-section__first-second-text-block__title
+{
+    width:376px;
+    height:108px;
+    font-size:48px;
+    color:#163A24;
+    /*font-family: нет такого шрифта гугле;*/
+    margin:-350px 0px 0px 228.34px
+}
+.second-section__first-second-text-block__sub-title
+{
+    width:380px;
+    height:54px;
+    font-size:18px;
+    color:#163A24;
+    font-family: "Noto Sans", sans-serif;
+    margin:20px 0px 0px 228.34px
+}
+.second-section__text-3
+{
+    max-width: 539px;
+    height:54px;
+    font-size:48px;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    color:#163A24;
+    padding-top: 400px;
+    padding-left: 450px;
+    
+}
